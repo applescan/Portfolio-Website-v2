@@ -158,7 +158,7 @@ const Wrapper = styled.section`
         padding: 10% 10% 5% 10%;
         width: 100%;
         @media (max-width: 860px) {
-          padding: 20% 10% 10% 10%;
+          padding: 25% 10% 10% 10%;
   }
         `;
 

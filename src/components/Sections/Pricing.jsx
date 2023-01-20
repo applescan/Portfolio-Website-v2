@@ -7,7 +7,7 @@ export default function Pricing() {
   return (
     <Wrapper id="resume">
       <div className="blueBg">
-        <div className="container" style={{ padding: '10% 3%' }}>
+        <div className="container" style={{ padding: '10% 5%' }}>
           <HeaderInfo>
             <h1 className="font40 extraBold whiteColor">Resume</h1>
             <br></br>

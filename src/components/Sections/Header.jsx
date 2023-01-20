@@ -16,8 +16,10 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Hi there, </h1>
-          <h2>I'm Felicia. A Web Developer & UX Designer</h2>
+          <HeaderP>
+            <h1 className="extraBold font60">Hi there, </h1>
+            <h2>I'm Felicia. A Web Developer & UX Designer</h2>
+          </HeaderP>
           <HeaderP className="font15 semiBold">
             At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
             Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
@@ -65,11 +67,9 @@ const LeftSide = styled.div`
   @media (max-width: 960px) {
     width: 100%;
     order: 2;
-    margin: 50px 0;
-    text-align: center;
+    text-align: left;
   }
   @media (max-width: 560px) {
-    margin: 50px 0 50px 0;
   }
 `;
 const RightSide = styled.div`
@@ -79,6 +79,7 @@ const RightSide = styled.div`
     width: 100%;
     order: 1;
     margin-top: 30px;
+    v
   }
 `;
 const HeaderP = styled.div`
@@ -86,8 +87,8 @@ const HeaderP = styled.div`
   padding: 15px 0 50px 0;
   line-height: 1.5rem;
   @media (max-width: 960px) {
-    padding: 15px 0 50px 0;
-    text-align: center;
+    padding: 30px 10%;
+    text-align: left;
     max-width: 100%;
   }
 `;
@@ -136,6 +137,7 @@ const DotsWrapper = styled.div`
 const ButtonsRow = styled.div`
   @media (max-width: 860px) {
     justify-content: space-evenly;
+    padding: 10% 10% 15% 10%;
   }
 `;
 
