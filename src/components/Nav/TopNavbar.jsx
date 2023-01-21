@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-// import { Link } from "react-scroll";
 import { HashLink as Link } from 'react-router-hash-link';
 // Components
 import Sidebar from "../Nav/Sidebar";
@@ -26,7 +25,7 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link className="pointer flexNullCenter" to="/#home" smooth={true}>
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Felicia Fel
             </h1>

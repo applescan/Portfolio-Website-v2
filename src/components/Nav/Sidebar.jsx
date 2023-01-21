@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { HashLink as Link } from 'react-router-hash-link';
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 
@@ -25,7 +25,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="home"
+            to="/#home"
             spy={true}
             smooth={true}
             offset={-60}
@@ -39,7 +39,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="about"
+            to="/#about"
             spy={true}
             smooth={true}
             offset={-60}
@@ -53,7 +53,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="projects"
+            to="/#projects"
             spy={true}
             smooth={true}
             offset={-60}
@@ -67,7 +67,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="resume"
+            to="/#resume"
             spy={true}
             smooth={true}
             offset={-60}

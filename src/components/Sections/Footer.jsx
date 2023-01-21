@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
-// Assets
 
 export default function Contact() {
 
@@ -15,7 +13,7 @@ export default function Contact() {
         <div className="container">
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <StyleP className="font13">
-              © {getCurrentYear()} - <span className="purpleColor font13">Felicia Fel</span> All Right Reserved | Email: <a href={"mailto:feliu.ren@gmail.com"}>feliu.ren@gmail.com</a>
+            © {getCurrentYear()} Designed and coded by - <span className="purpleColor font13">Felicia Fel</span> 🪅 | Email: <a href={"mailto:feliu.ren@gmail.com"}>feliu.ren@gmail.com</a>
             </StyleP>
           </InnerWrapper>
         </div>

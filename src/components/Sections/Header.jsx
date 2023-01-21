@@ -59,6 +59,11 @@ const Wrapper = styled.section`
   min-height: 840px;
   @media (max-width: 960px) {
     flex-direction: column;
+    padding: 5%;
+  }
+  @media (max-width: 560px) {
+    flex-direction: column;
+    padding: 15%;
   }
 `;
 const LeftSide = styled.div`
@@ -69,8 +74,6 @@ const LeftSide = styled.div`
     order: 2;
     text-align: left;
   }
-  @media (max-width: 560px) {
-  }
 `;
 const RightSide = styled.div`
   width: 50%;
@@ -79,12 +82,11 @@ const RightSide = styled.div`
     width: 100%;
     order: 1;
     margin-top: 30px;
-    v
   }
 `;
 const HeaderP = styled.div`
   max-width: 470px;
-  padding: 15px 0 50px 0;
+  padding: 15px 0 ;
   line-height: 1.5rem;
   @media (max-width: 960px) {
     padding: 30px 10%;
@@ -135,9 +137,10 @@ const DotsWrapper = styled.div`
   }
 `;
 const ButtonsRow = styled.div`
-  @media (max-width: 860px) {
+  padding-top: 20px;
+  @media (max-width: 960px) {
     justify-content: space-evenly;
-    padding: 10% 10% 15% 10%;
+    padding: 10% 10%;
   }
 `;
 
