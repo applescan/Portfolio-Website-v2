@@ -19,24 +19,22 @@ export default function Header() {
           <HeaderP>
             <h1 className="extraBold font60">Hi there, </h1>
             <h2>I'm Felicia. A Web Developer & UX Designer</h2>
+            <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
+              Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
+              I will be able to further the knowledge that I got from my software development qualification and apply it to human-centred design.</p>
+            <ButtonsRow className="flexNullCenter">
+              <div style={{ width: "190px" }}>
+                <a href="https://www.linkedin.com/in/felicia-fel/" target="_blank" rel="noopener noreferrer">
+                  <FullButton title="Linkedin" border={true} />
+                </a>
+              </div>
+              <div style={{ width: "190px", marginLeft: "15px" }}>
+                <a href="https://github.com/applescan" target="_blank" rel="noopener noreferrer">
+                  <FullButton title="Github" border={false} />
+                </a>
+              </div>
+            </ButtonsRow>
           </HeaderP>
-          <HeaderP className="font15 semiBold">
-            At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
-            Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
-            I will be able to further the knowledge that I got from my software development qualification and apply it to human-centred design.
-          </HeaderP>
-          <ButtonsRow className="flexNullCenter">
-            <div style={{ width: "190px" }}>
-              <a href="https://www.linkedin.com/in/felicia-fel/" target="_blank" rel="noopener noreferrer">
-                <FullButton title="Linkedin" border={true} />
-              </a>
-            </div>
-            <div style={{ width: "190px", marginLeft: "15px" }}>
-              <a href="https://github.com/applescan" target="_blank" rel="noopener noreferrer">
-                <FullButton title="Github" border={false} />
-              </a>
-            </div>
-          </ButtonsRow>
         </div>
       </LeftSide>
       <RightSide>
@@ -85,13 +83,9 @@ const RightSide = styled.div`
   }
 `;
 const HeaderP = styled.div`
-  max-width: 470px;
-  padding: 15px 0 ;
-  line-height: 1.5rem;
+  padding: 0 5%;
   @media (max-width: 960px) {
-    padding: 30px 10%;
-    text-align: left;
-    max-width: 100%;
+    padding: 0 10%;
   }
 `;
 
@@ -139,8 +133,8 @@ const DotsWrapper = styled.div`
 const ButtonsRow = styled.div`
   padding-top: 20px;
   @media (max-width: 960px) {
-    justify-content: space-evenly;
-    padding: 10% 10%;
+    justify-content: start;
+    padding: 10% 0;
   }
 `;
 
