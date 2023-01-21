@@ -85,6 +85,9 @@ const RightSide = styled.div`
 const HeaderP = styled.div`
   padding: 0 5%;
   @media (max-width: 960px) {
+    padding: 0 15%;
+  }
+  @media (max-width: 560px) {
     padding: 0 20%;
   }
 `;
