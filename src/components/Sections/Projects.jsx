@@ -20,64 +20,63 @@ export default function Projects() {
   const navigate = useNavigate()
 
   return (
-    <Wrapper id="projects">
-      <div className="whiteBg">
-        <div className="container">
-          <HeaderInfo>
-            <h1 className="font40 extraBold">Projects</h1>
-          </HeaderInfo>
-          <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={NzLocum}
-                title="NZ Veterinary Locum Network"
-                text="Full Stack Web Developer | 2023 | Institute of Data"
-                action={() => { navigate(`/nz-locum`) }}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={Mix}
-                title="Mixtape-me | Spotify app integration."
-                text="Full Stack Web Developer | 2022 | Spotify Web API"
-                action={() => { navigate(`/mixtape-me`) }}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={Airscammer}
-                title="Airscammer - Let's Learn About Airline Scams!"
-                text="Full Stack Web Developer | 2022 | Future Skills Academy"
-                action={() => { navigate(`/airscammer`) }}
-              />
-            </div>
+    <div className="whiteBg">
+      <Wrapper id="projects" className="container"  style={{ padding: '10% 5%' }}>
+        <HeaderInfo>
+          <h1 className="font40 extraBold">Projects</h1>
+        </HeaderInfo>
+        <div className="row textCenter">
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={NzLocum}
+              title="NZ Veterinary Locum Network"
+              text="Full Stack Web Developer | 2023 | Institute of Data"
+              action={() => { navigate(`/nz-locum`) }}
+            />
           </div>
-          <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={Dpm}
-                title="Deltapath Mobile UI & UX Design"
-                text="UI & UX Design | 2022 | Deltapath"
-                action={() => { navigate(`/dpm`) }}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={Cti}
-                title="Deltapath Salesforce CTI Integration"
-                text="UI & UX Design | 2022 | Deltapath"
-                action={() => { navigate(`/cti`) }}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
-              <ProjectBox
-                img={DpmTalk}
-                title="Deltapath Talk (Microsoft Teams Integration)"
-                text="UI Design | 2022 | Deltapath"
-                action={() => { navigate(`/dpm-talk`) }}
-              />
-            </div>
-            {/* <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={Mix}
+              title="Mixtape-me | Spotify app integration."
+              text="Full Stack Web Developer | 2022 | Spotify Web API"
+              action={() => { navigate(`/mixtape-me`) }}
+            />
+          </div>
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={Airscammer}
+              title="Airscammer - Let's Learn About Airline Scams!"
+              text="Full Stack Web Developer | 2022 | Future Skills Academy"
+              action={() => { navigate(`/airscammer`) }}
+            />
+          </div>
+        </div>
+        <div className="row textCenter">
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={Dpm}
+              title="Deltapath Mobile UI & UX Design"
+              text="UI & UX Design | 2022 | Deltapath"
+              action={() => { navigate(`/dpm`) }}
+            />
+          </div>
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={Cti}
+              title="Deltapath Salesforce CTI Integration"
+              text="UI & UX Design | 2022 | Deltapath"
+              action={() => { navigate(`/cti`) }}
+            />
+          </div>
+          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={DpmTalk}
+              title="Deltapath Talk (Microsoft Teams Integration)"
+              text="UI Design | 2022 | Deltapath"
+              action={() => { navigate(`/dpm-talk`) }}
+            />
+          </div>
+          {/* <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4"  style={{ textAlign: "left" }}>
               <ProjectBox
                 img={Therapy}
                 title="Let's Talk Therapy"
@@ -94,17 +93,15 @@ export default function Projects() {
                 
               />
             </div> */}
-          </div>
-          
         </div>
-      </div>
-    </Wrapper>
+      </Wrapper >
+    </div >
   );
 }
 
 const Wrapper = styled.section`
-padding: 10%;
-  width: 100%;
+width: 100%;
+min-height: 100vh;
 `;
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {

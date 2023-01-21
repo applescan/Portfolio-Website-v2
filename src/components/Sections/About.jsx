@@ -3,17 +3,17 @@ import styled from "styled-components";
 
 export default function Services() {
   return (
-    <Wrapper id="about" className="blueBg">
-      <div className="container">
+    <div className="blueBg">
+    <Wrapper id="about" className="container">
         <HeaderInfo>
           <h1 className="font40 extraBold whiteColor">A bit about me</h1>
-          <p className="font15 whiteColor semiBold">
+          <p className="font16 whiteColor semiBold">
             Innovative, goal-oriented individual with three years of experience in the telecommunications industry designing user interfaces for websites and mobile apps.
             Able to work on a complex framework with a track record of success. Competent in building user interfaces, writing and testing code, debugging complicated/simple problems,
             and putting new features into practice based on user feedback.
           </p>
           <br></br>
-          <ul className="font15 whiteColor semiBold">
+          <ul className="font16 whiteColor semiBold">
 
             <li>
               <p>👀 I specialize in Website Design, Graphic Design and Visual
@@ -38,24 +38,27 @@ export default function Services() {
                 those goals!</p>
             </li>
           </ul>
-
         </HeaderInfo>
-      </div>
     </Wrapper>
+      </div>
   );
 }
 
 const Wrapper = styled.section`
-  padding: 15% 5%;
   width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  @media (max-width: 860px) {
-    padding: 20% 10% 10% 10%;
-  }
+  padding: 0 5%;
+@media (max-width: 960px) {
+  flex-direction: column;
+  padding: 15% 10%;
+}
 `;
 
 const HeaderInfo = styled.div`
-  @media (max-width: 860px) {
+  @media (max-width: 960px) {
     text-align: left;
   }
 `;

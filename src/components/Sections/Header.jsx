@@ -10,13 +10,10 @@ import FullButton from "../Buttons/FullButton";
 
 export default function Header() {
 
-  const navigate = useNavigate()
-
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
-      <LeftSide className="flexCenter">
+    <Wrapper id="home" className="container">
+      <LeftSide>
         <div>
-          <HeaderP>
             <h1 className="extraBold font60">Hi there, </h1>
             <h2>I'm Felicia. A Web Developer & UX Designer</h2>
             <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
@@ -34,7 +31,6 @@ export default function Header() {
                 </a>
               </div>
             </ButtonsRow>
-          </HeaderP>
         </div>
       </LeftSide>
       <RightSide>
@@ -52,18 +48,17 @@ export default function Header() {
 
 
 const Wrapper = styled.section`
-  padding-top: 80px;
-  width: 100%;
-  min-height: 840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 5%;
   @media (max-width: 960px) {
     flex-direction: column;
-    padding: 5%;
-  }
-  @media (max-width: 560px) {
-    flex-direction: column;
-    padding: 15%;
+    padding: 15% 10%;
   }
 `;
+
 const LeftSide = styled.div`
   width: 50%;
   height: 100%;
@@ -82,16 +77,6 @@ const RightSide = styled.div`
     margin-top: 30px;
   }
 `;
-const HeaderP = styled.div`
-  padding: 0 5%;
-  @media (max-width: 960px) {
-    padding: 0 15%;
-  }
-  @media (max-width: 560px) {
-    padding: 0 20%;
-  }
-`;
-
 const GreyDiv = styled.div`
   width: 30%;
   height: 700px;
@@ -120,7 +105,6 @@ const Img = styled.img`
     height: auto;
   }
 `;
-
 const DotsWrapper = styled.div`
   position: absolute;
   right: -100px;
