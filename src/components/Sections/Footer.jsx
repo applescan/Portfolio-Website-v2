@@ -36,5 +36,6 @@ const InnerWrapper = styled.div`
 const StyleP = styled.p`
   @media (max-width: 550px) {
     margin: 20px 0;
+    text-align: center;
   }
 `;

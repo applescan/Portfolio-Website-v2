@@ -16,7 +16,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <HeaderP>
+          <div style={{padding:"8%"}}>
             <h1 className="extraBold font60">Hi there, </h1>
             <h2>I'm Felicia. A Web Developer & UX Designer</h2>
             <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
@@ -34,7 +34,7 @@ export default function Header() {
                 </a>
               </div>
             </ButtonsRow>
-          </HeaderP>
+          </div>
         </div>
       </LeftSide>
       <RightSide>
