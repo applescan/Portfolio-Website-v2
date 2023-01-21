@@ -16,7 +16,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <div style={{padding:"8%"}}>
+          <HeaderP>
             <h1 className="extraBold font60">Hi there, </h1>
             <h2>I'm Felicia. A Web Developer & UX Designer</h2>
             <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
@@ -34,7 +34,7 @@ export default function Header() {
                 </a>
               </div>
             </ButtonsRow>
-          </div>
+          </HeaderP>
         </div>
       </LeftSide>
       <RightSide>
@@ -85,7 +85,7 @@ const RightSide = styled.div`
 const HeaderP = styled.div`
   padding: 0 5%;
   @media (max-width: 960px) {
-    padding: 0 10%;
+    padding: 0 20%;
   }
 `;
 
