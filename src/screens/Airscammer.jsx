@@ -63,18 +63,16 @@ export default function NzLocum() {
         <br></br>
 
 
-        <p>The most common air travel scams are those that occur online. In reality, it is very easy for scammers to
-          create a fake airline website that uses very similar text and images to persuade users. This is because
-          they can take their money in the process.
+        <p>This web application is developed with HTML, CSS, Bootstrap, MYSQL, Node.JS, Passport and JavaScript. 
+          This is a self-sponsored, individual project developed in a span of 3 weeks with iterations each week. 
+          During the 3 weeks period, I was able to push myself and add some additional features such as showing the 
+          local time when the user is logged in and deploying the application to a cloud server.​​
 
           <br></br>
           <br></br>
 
-          Airscammer is a web application that simulates what a potentially suspicious booking website will
-          typically do. The name Airscammer is inspired by Skyscanner, an actual airline aggregator website. The
-          purpose of the project is to educate my users to pay attention to online booking by setting up some
-          "traps" for them and informing them what potential harm can occur as a result of being caught up in
-          those "traps".
+          With Airscammer I aim to make learning more fun. 
+          Let's just learn by doing instead of reading a bunch of articles and not being able to fully understand what they are saying!
         </p>
 
         <Body
@@ -136,7 +134,7 @@ export default function NzLocum() {
           <br></br>
           <br></br>
 
-          I'm conscious that there is still a lot to learn, and I'm eager to learn more in the future about APIs,
+          I'm aware that there is still a lot to learn, and I'm eager to learn more in the future about APIs,
           React, and other frameworks. If I were to undertake this project—or one very similar to it—again, I would
           attempt to build the web application using a mobile-first strategy and would strive to thoroughly flesh out
           all the needs before beginning to add further dependencies to my project.

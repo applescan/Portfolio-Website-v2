@@ -119,7 +119,7 @@ export default function NzLocum() {
           issue.. More information regarding TSL certificate can be found
           <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/network/create-tls-listener.html"
             target="_blank">
-            here</a>
+            <span className="purpleColor"> here.</span></a>
           <br />
           <br />
           <b>If you're running the backend in your local, there should be no problem with CORS and uploading image
@@ -128,7 +128,7 @@ export default function NzLocum() {
 
         <Body
           title={'Future Software Enhancement List'}
-          desc={'Allow job listing due date, so when a job listing is expired it will automatically be removed from the website.'}
+          desc={'In the future, I am to develop a job listing due date feature, so when a job listing is expired it will automatically be removed from the website.'}
         />
 
         <div style={{ width: "150px", paddingTop: "100px" }}>

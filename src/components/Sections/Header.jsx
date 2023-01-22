@@ -14,23 +14,25 @@ export default function Header() {
     <Wrapper id="home" className="container">
       <LeftSide>
         <div>
-            <h1 className="extraBold font60">Hi there, </h1>
-            <h2>I'm Felicia. A Web Developer & UX Designer</h2>
-            <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
-              Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
-              I will be able to further the knowledge that I got from my software development qualification and apply it to human-centred design.</p>
-            <ButtonsRow className="flexNullCenter">
-              <div style={{ width: "190px" }}>
-                <a href="https://www.linkedin.com/in/felicia-fel/" target="_blank" rel="noopener noreferrer">
-                  <FullButton title="Linkedin" border={true} />
-                </a>
-              </div>
-              <div style={{ width: "190px", marginLeft: "15px" }}>
-                <a href="https://github.com/applescan" target="_blank" rel="noopener noreferrer">
-                  <FullButton title="Github" border={false} />
-                </a>
-              </div>
-            </ButtonsRow>
+          <h1 className="extraBold font60">Hi there, </h1>
+          <h2>I'm Felicia. A Web Developer & UX Designer</h2>
+          <br></br>
+          <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
+            Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
+            I will be able to further the knowledge that I got from my software development qualification and apply it to human-centred design.</p>
+          <br></br>
+          <ButtonsRow className="flexNullCenter">
+            <div style={{ width: "190px" }}>
+              <a href="https://www.linkedin.com/in/felicia-fel/" target="_blank" rel="noopener noreferrer">
+                <FullButton title="Linkedin" border={true} />
+              </a>
+            </div>
+            <div style={{ width: "190px", marginLeft: "15px" }}>
+              <a href="https://github.com/applescan" target="_blank" rel="noopener noreferrer">
+                <FullButton title="Github" border={false} />
+              </a>
+            </div>
+          </ButtonsRow>
         </div>
       </LeftSide>
       <RightSide>
@@ -118,7 +120,7 @@ const DotsWrapper = styled.div`
   }
 `;
 const ButtonsRow = styled.div`
-  padding-top: 20px;
+  padding-top: 10px;
   @media (max-width: 960px) {
     justify-content: start;
     padding: 10% 0;

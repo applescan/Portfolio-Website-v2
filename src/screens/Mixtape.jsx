@@ -37,7 +37,7 @@ export default function NzLocum() {
             year="2022"
           />
         </HeaderInfo>
-        <Images img1={Mix2} alt1={"project image cover"} img2={Mix2} alt2={"mobile mockup image"} />
+        <Images img1={Mix1} alt1={"project image cover"} img2={Mix2} alt2={"mobile mockup image"} />
 
 
         <h1 className='font25'>Links:</h1>
