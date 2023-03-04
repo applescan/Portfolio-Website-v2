@@ -4,7 +4,7 @@ import React from "react";
 import Header from "../components/Sections/Header";
 import About from "../components/Sections/About";
 import Projects from "../components/Sections/Projects";
-import Pricing from "../components/Sections/Pricing";
+import Experience from "../components/Sections/Experience";
 
 
 
@@ -14,7 +14,7 @@ export default function Landing() {
       <Header />
       <About />
       <Projects />
-      <Pricing />
+      <Experience />
     </>
   );
 }

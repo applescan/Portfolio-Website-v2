@@ -17,9 +17,11 @@ export default function Header() {
           <h1 className="extraBold font60">Hi there, </h1>
           <h2>I'm Felicia. A Web Developer & UX Designer</h2>
           <br></br>
-          <p>At the moment I just finished my qualification in Full Stack Software Development with Auckland University of Technology &
-            Institute of Data. Combined with my programme at UX Design Institute & Glasgow Caledonian University,
-            I will be able to further the knowledge that I got from my software development qualification and apply it to human-centred design.</p>
+          <p>As a Front-end Developer and UX Designer at Data insight, I bring a unique perspective to the development process.
+            I have a solid foundation in programming languages, frameworks, and software architecture, as well as an understanding of human-centered design, including user research, wireframing,
+            prototyping, and usability testing. I have leveraged these skills to create intuitive and engaging user experiences
+            that are both technically sound and scalable, making me a valuable asset to the team.
+          </p>
           <br></br>
           <ButtonsRow className="flexNullCenter">
             <div style={{ width: "190px" }}>

@@ -16,6 +16,23 @@ export default function Pricing() {
         </HeaderInfo>
 
         <TablesWrapper className="flexSpaceNull">
+          <TableBoxLarge>
+            <PricingTable
+              title="Data Insight- Front-end Software Developer & UX Designer"
+              text="February 2023 - Current"
+              offers={[
+                { name: "Collaborate with back-end developers and other stakeholders to integrate front-end functionality with back-end services and APIs.", cheked: true },
+                { name: "Taking an active role in the implementation, deployment, monitoring, and support activities of new products.", cheked: true },
+                { name: "Ongoing expansion of the codebase, developed in a structured and reusable way.", cheked: true },
+                { name: "Collaborate with cross-functional teams, including developers, product managers, and stakeholders, to ensure designs meet project goals and user needs", cheked: true },
+                { name: "Develop wireframes and prototypes to visualize and test design concepts", cheked: true },
+                { name: "Communicate design concepts and recommendations to stakeholders using visual design tools and presentations.", cheked: true }
+              ]}
+            />
+          </TableBoxLarge>
+        </TablesWrapper>
+
+        <TablesWrapper className="flexSpaceNull">
           <TableBox>
             <PricingTable
               title="Liia NZ Limited - Integrated Marketing Designer (Independent Contractor)"
@@ -129,7 +146,14 @@ const TableBox = styled.div`
     margin: 0 auto
   }
 `;
-
+const TableBoxLarge = styled.div`
+  width: 100%;
+  @media (max-width: 860px) {
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto
+  }
+`;
 
 
 

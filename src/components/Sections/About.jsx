@@ -8,7 +8,7 @@ export default function Services() {
         <HeaderInfo>
           <h1 className="font40 extraBold whiteColor">A bit about me</h1>
           <p className="font16 whiteColor semiBold">
-            Innovative, goal-oriented individual with three years of experience in the telecommunications industry designing user interfaces for websites and mobile apps.
+            Innovative, goal-oriented individual with three years of experience in the telecommunications and sustainability industry designing user interfaces for websites and mobile apps.
             Able to work on a complex framework with a track record of success. Competent in building user interfaces, writing and testing code, debugging complicated/simple problems,
             and putting new features into practice based on user feedback.
           </p>
@@ -20,7 +20,7 @@ export default function Services() {
                 Content Creation</p>
             </li>
             <li>
-              <p>🌱 I’m currently learning Full Stack Web Development *lifetime learner!</p>
+              <p>🌱 I’m currently learning next js & typescript *lifetime learner!</p>
             </li>
             <li>
               <p>💁 I love to work on problem-solving together with the
