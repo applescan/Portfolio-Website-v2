@@ -10,11 +10,12 @@ export default function PricingTable({ icon, price, title, text,  offers, action
     <Wrapper className="whiteBg radius8 shadow">
       <div className="flexSpaceCenter">
   
-        <p className="font30 extraBold">{price}</p>
+        <p className="font30 bold">{price}</p>
       </div>
       <div style={{ margin: "30px 0" }}>
-        <h4 className="font20 extraBold">{title}</h4>
-        <p className="font16">{text}</p>
+        <h4 className="font20 bold">{title}</h4>
+        <br></br>
+        <p className="font16 semiBold">{text}</p>
       </div>
       <div>
         {offers
@@ -29,7 +30,7 @@ export default function PricingTable({ icon, price, title, text,  offers, action
                     <div style={{ minWidth: "10px" }}></div>
                   )}
                 </div>
-                <p className="font15 semiBold">{item.name}</p>
+                <p className="font15 regular">{item.name}</p>
               </div>
             ))
           : null}

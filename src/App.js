@@ -7,6 +7,7 @@ import Landing from "../src/screens/Landing";
 import NzLocum from "../src/screens/NZLocum";
 import Mixtape from '../src/screens/Mixtape';
 import Airscammer from "../src/screens/Airscammer";
+import WhatToEat from "../src/screens/WhatToEat"
 import Dpm from "../src/screens/Dpm";
 import Cti from "../src/screens/Cti";
 import Talk from '../src/screens/Talk';
@@ -26,6 +27,7 @@ export default function App() {
         <Route path='/nz-locum' element={<NzLocum />} />
         <Route path='/mixtape-me' element={<Mixtape />} />
         <Route path='/airscammer' element={<Airscammer />} />
+        <Route path='/what-to-eat' element={<WhatToEat />} />
         <Route path='/dpm' element={<Dpm />} />
         <Route path='/cti' element={<Cti />} />
         <Route path='/dpm-talk' element={<Talk />} />

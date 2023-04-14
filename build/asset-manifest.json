@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e85944d.css",
-    "main.js": "/static/js/main.bf294b52.js",
+    "main.css": "/static/css/main.fb2e4714.css",
+    "main.js": "/static/js/main.a8fc0f23.js",
     "static/js/496.bafa5cfb.chunk.js": "/static/js/496.bafa5cfb.chunk.js",
     "static/media/cti.png": "/static/media/cti.5714b40f593f54642555.png",
     "static/media/airscammer.png": "/static/media/airscammer.f1c030fee65a3b1f6963.png",
     "static/media/2.webp": "/static/media/2.1a73d494d3cbc22b6a67.webp",
+    "static/media/What-to-eat-2.png": "/static/media/What-to-eat-2.543e43c723539d6415b5.png",
     "static/media/1.webp": "/static/media/1.04188311915ec0a3c946.webp",
+    "static/media/What-to-eat-1.png": "/static/media/What-to-eat-1.0e4aaba7c3433aedf9d1.png",
     "static/media/cti1.webp": "/static/media/cti1.336c05619d838336cca2.webp",
     "static/media/4.webp": "/static/media/4.36789fdae281f081baf0.webp",
     "static/media/stats.webp": "/static/media/stats.db83f17cdfae1d2c23c9.webp",
@@ -20,6 +22,7 @@
     "static/media/felicia-profile.png": "/static/media/felicia-profile.7dfa233851d00063a2d1.png",
     "static/media/dpm-talk.png": "/static/media/dpm-talk.4b955dbca124d9a683f0.png",
     "static/media/nz-locum1.jpg": "/static/media/nz-locum1.42121f0a22beabf5acc3.jpg",
+    "static/media/What to eat.png": "/static/media/What to eat.c7bd0f0512ac71884ced.png",
     "static/media/website.png": "/static/media/website.8e8d4f6aa81a28d559d4.png",
     "static/media/demo1.jpg": "/static/media/demo1.f1d6b2f7603ec83e8f16.jpg",
     "static/media/demo2.jpg": "/static/media/demo2.fb53bf50c354b8ac33b0.jpg",
@@ -40,12 +43,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.4e85944d.css.map": "/static/css/main.4e85944d.css.map",
-    "main.bf294b52.js.map": "/static/js/main.bf294b52.js.map",
+    "main.fb2e4714.css.map": "/static/css/main.fb2e4714.css.map",
+    "main.a8fc0f23.js.map": "/static/js/main.a8fc0f23.js.map",
     "496.bafa5cfb.chunk.js.map": "/static/js/496.bafa5cfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e85944d.css",
-    "static/js/main.bf294b52.js"
+    "static/css/main.fb2e4714.css",
+    "static/js/main.a8fc0f23.js"
   ]
 }

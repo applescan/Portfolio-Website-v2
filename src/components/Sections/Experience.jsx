@@ -8,7 +8,7 @@ export default function Pricing() {
     <div className="blueBg">
       <Wrapper id="resume" className="container" style={{ padding: '10% 5%' }}>
         <HeaderInfo>
-          <h1 className="font40 extraBold whiteColor">Resume</h1>
+          <h1 className="font40 bold whiteColor">Resume</h1>
           <br></br>
           <p className="font25 whiteColor">
             Work Experience
@@ -18,7 +18,7 @@ export default function Pricing() {
         <TablesWrapper className="flexSpaceNull">
           <TableBoxLarge>
             <PricingTable
-              title="Data Insight- Front-end Software Developer & UX Designer"
+              title="Data Insight- Front-end Software Developer"
               text="February 2023 - Current"
               offers={[
                 { name: "Collaborate with back-end developers and other stakeholders to integrate front-end functionality with back-end services and APIs.", cheked: true },

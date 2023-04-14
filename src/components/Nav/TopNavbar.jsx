@@ -34,22 +34,22 @@ export default function TopNavbar() {
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
-            <li className="semiBold font15 pointer">
+            <li className="regular font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="/#home" spy={true} smooth={true} offset={-80}>
                 Home
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="regular font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="/#about" spy={true} smooth={true} offset={-80}>
                 About
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="regular font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="/#projects" spy={true} smooth={true} offset={-80}>
                 Projects
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="regular font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="/#resume" spy={true} smooth={true} offset={-80}>
                 Resume
               </Link>

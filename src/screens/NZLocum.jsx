@@ -128,7 +128,7 @@ export default function NzLocum() {
 
         <Body
           title={'Future Software Enhancement List'}
-          desc={'In the future, I am to develop a job listing due date feature, so when a job listing is expired it will automatically be removed from the website.'}
+          desc={'In the future, I am planning to develop a job listing due date feature, so when a job listing is expired it will automatically be removed from the website.'}
         />
 
         <div style={{ width: "150px", paddingTop: "100px" }}>
