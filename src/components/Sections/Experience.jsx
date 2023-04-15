@@ -5,7 +5,7 @@ import PricingTable from "../Elements/PricingTable";
 
 export default function Pricing() {
   return (
-    <div className="blueBg">
+    <div className="darkBg">
       <Wrapper id="resume" className="container" style={{ padding: '10% 5%' }}>
         <HeaderInfo>
           <h1 className="font40 bold whiteColor">Resume</h1>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.70311591.css",
-    "main.js": "/static/js/main.a8fc0f23.js",
+    "main.js": "/static/js/main.11e835b9.js",
     "static/js/496.bafa5cfb.chunk.js": "/static/js/496.bafa5cfb.chunk.js",
     "static/media/cti.png": "/static/media/cti.5714b40f593f54642555.png",
     "static/media/airscammer.png": "/static/media/airscammer.f1c030fee65a3b1f6963.png",
@@ -22,13 +22,13 @@
     "static/media/felicia-profile.png": "/static/media/felicia-profile.7dfa233851d00063a2d1.png",
     "static/media/dpm-talk.png": "/static/media/dpm-talk.4b955dbca124d9a683f0.png",
     "static/media/nz-locum1.jpg": "/static/media/nz-locum1.42121f0a22beabf5acc3.jpg",
-    "static/media/What to eat.png": "/static/media/What to eat.c7bd0f0512ac71884ced.png",
     "static/media/website.png": "/static/media/website.8e8d4f6aa81a28d559d4.png",
     "static/media/demo1.jpg": "/static/media/demo1.f1d6b2f7603ec83e8f16.jpg",
     "static/media/demo2.jpg": "/static/media/demo2.fb53bf50c354b8ac33b0.jpg",
     "static/media/therapy.png": "/static/media/therapy.87483b2dc737558835d1.png",
     "static/media/dpm1.webp": "/static/media/dpm1.77bb03c1704c9c0d8e0f.webp",
     "static/media/5.webp": "/static/media/5.ea83ac5dad1d2ae40078.webp",
+    "static/media/What to eat.png": "/static/media/What to eat.6caa2eb26cc7a0155d63.png",
     "static/media/nz-locum.png": "/static/media/nz-locum.80291454e5cb34a7f1f3.png",
     "static/media/airscammer3.webp": "/static/media/airscammer3.a6fc4d0f53d6128a1231.webp",
     "static/media/concept3.webp": "/static/media/concept3.1e4d5fbca60d84b64ca3.webp",
@@ -44,11 +44,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.70311591.css.map": "/static/css/main.70311591.css.map",
-    "main.a8fc0f23.js.map": "/static/js/main.a8fc0f23.js.map",
+    "main.11e835b9.js.map": "/static/js/main.11e835b9.js.map",
     "496.bafa5cfb.chunk.js.map": "/static/js/496.bafa5cfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70311591.css",
-    "static/js/main.a8fc0f23.js"
+    "static/js/main.11e835b9.js"
   ]
 }

@@ -35,7 +35,7 @@ export default function NzLocum() {
         <Images img1={WhatToEat1} alt1={"project image cover"} img2={WhatToEat2} alt2={"mockup image"} />
 
 
-        <h1 className='font25'>Links:</h1>
+        <h1 className='extraBold font25'>Links:</h1>
         <br></br>
         <ButtonsRow className="flexNullCenter">
           <div style={{ width: "190px" }}>
@@ -79,7 +79,7 @@ export default function NzLocum() {
 
         <List
           title={'User Guide'}
-          list1={'1. npClick the get repice button from the homescreen'}
+          list1={'1. Click the get repice button from the homescreen'}
           list2={'2. Select your dietary preferences and ingredients at home'}
           list3={'3. Click next and recipes recomendations based on your preferences will show up'}
           list4={'4. Click on the recipe you want to cook or experiment with!'}

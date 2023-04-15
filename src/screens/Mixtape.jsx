@@ -40,7 +40,7 @@ export default function NzLocum() {
         <Images img1={Mix1} alt1={"project image cover"} img2={Mix2} alt2={"mobile mockup image"} />
 
 
-        <h1 className='font25'>Links:</h1>
+        <h1 className='extraBold font25'>Links:</h1>
         <br></br>
         <ButtonsRow className="flexNullCenter">
           <div style={{ width: "190px" }}>

@@ -84,8 +84,3 @@ const HeaderInfo = styled.div`
   }
         `;
 
-const ButtonsRow = styled.div`
-        @media (max-width: 860px) {
-          justify - content: space-evenly;
-  }
-        `;

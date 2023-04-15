@@ -7,7 +7,7 @@ export default function PricingTable({ icon, price, title, text,  offers, action
 
 
   return (
-    <Wrapper className="whiteBg radius8 shadow">
+    <Wrapper className="whiteBg radius8">
       <div className="flexSpaceCenter">
   
         <p className="font30 bold">{price}</p>
