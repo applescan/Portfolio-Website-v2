@@ -390,6 +390,6 @@
 
  .blueBg {
    background-image: url('../../src/assets/img/background.png');
-   background-size: cover;
+   background-size: contain;
    height: 100%;
  }
