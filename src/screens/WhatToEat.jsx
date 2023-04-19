@@ -48,7 +48,14 @@ export default function NzLocum() {
               <FullButton title="View Code" border={false} />
             </a>
           </div>
+          <div style={{ width: "190px", marginLeft: "15px" }}>
+            <a href="https://www.producthunt.com/posts/what-to-eat-2" target="_blank" rel="noopener noreferrer">
+              <FullButton title="Featured on product hunt" border={false} />
+            </a>
+          </div>
+
         </ButtonsRow>
+        
 
         <Body
           title={'Why this project?'}
