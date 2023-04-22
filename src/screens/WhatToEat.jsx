@@ -39,7 +39,7 @@ export default function NzLocum() {
         <br></br>
         <ButtonsRow className="flexNullCenter">
           <div style={{ width: "190px" }}>
-            <a href="https://what-to-eat-2-applescan.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://what-to-eat-2.vercel.app/" target="_blank" rel="noopener noreferrer">
               <FullButton title="Try the app!" border={false} />
             </a>
           </div>
