@@ -18,7 +18,7 @@ export default function Pricing() {
         <TablesWrapper className="flexSpaceNull">
           <TableBoxLarge>
             <PricingTable
-              title="Data Insight- Front-end Software Developer"
+              title="Data Insight - Frontend Software Developer"
               text="February 2023 - Current"
               offers={[
                 { name: "Collaborate with back-end developers and other stakeholders to integrate front-end functionality with back-end services and APIs.", cheked: true },
