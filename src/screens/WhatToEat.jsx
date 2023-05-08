@@ -79,7 +79,7 @@ export default function NzLocum() {
         <Body
           title={'App'}
         />
-        <p>Visit <a className="purpleColor" href="https://nz-locum-network.netlify.app/"
+        <p>Visit <a className="purpleColor" href="https://what-to-eat-2.vercel.app/"
           target="_blank">https://what-to-eat-2.vercel.app/</a> to
           access the web application.
         </p>
