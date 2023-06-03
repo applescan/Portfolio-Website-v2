@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 // Screens
 import TopNavbar from "../src/components/Nav/TopNavbar";
-import Footer from "../src/components/Sections/Footer";
+import Footer from "./components/Nav/Footer";
 import Landing from "../src/screens/Landing";
 import NzLocum from "../src/screens/NZLocum";
 import Mixtape from '../src/screens/Mixtape';

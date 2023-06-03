@@ -4,44 +4,46 @@ import styled from "styled-components";
 export default function Services() {
   return (
     <div className="darkBg">
-    <Wrapper id="about" className="container">
+      <Wrapper id="about" className="container">
         <HeaderInfo>
           <h1 className="font40 bold whiteColor">A bit about me</h1>
           <br></br>
           <p className="font15 whiteColor regular">
-            Innovative, goal-oriented individual with three years of experience in the telecommunications and sustainability industry designing user interfaces for websites and mobile apps.
-            Able to work on a complex framework with a track record of success. Competent in building user interfaces, writing and testing code, debugging complicated/simple problems,
-            and putting new features into practice based on user feedback.
+            A dynamic blend of a Web Developer and UX Designer with an innovative, goal-oriented approach.
+            I bring to the table three years of experience in the design industry,
+            where I've honed my skills in designing user interfaces for websites and mobile apps.
+            My track record speaks to my competence in building user interfaces, writing and testing code,
+            debugging problems, and implementing new features based on user feedback.
+            What sets me apart is my ability to seamlessly interweave solid coding with a deep understanding of user needs, which makes me a valuable addition to any team.
           </p>
           <br></br>
           <ul className="font15 whiteColor regular">
 
             <li>
-              <p>👀 I specialize in Website Design, Graphic Design and Visual
-                Content Creation</p>
+              <p>🌱 As a tech enthusiast, I'm always ready to learn more!
+                I have a special spot in my heart for Full Stack Web Development,
+                and I am continually finding ways to grow in this area.</p>
             </li>
+            <br></br>
             <li>
-              <p>🌱 I’m currently learning next js & typescript *lifetime learner!</p>
+              <p>💁 I find it super rewarding to solve complex problems and love combining design thinking with software development.
+                It's like piecing together a puzzle, and I adore it!</p>
             </li>
+            <br></br>
             <li>
-              <p>💁 I love to work on problem-solving together with the
-                combination of design thinking and
-                software development.</p>
+              <p>✅ I believe my strengths can help make our tech world a friendlier place.
+                I'm keen on smoothing out the communication bumps between designers and developers,
+                and I can't wait to create fantastic products that the end-users will love.</p>
             </li>
+            <br></br>
             <li>
-              <p>✔️ I hope with my skills and experience I can simplify the
-                communication barriers by bridging the
-                gap between designers and developers and creating an excellent product for end-users.</p>
-            </li>
-            <li>
-              <p>🎯 I want to do a design that considers the user’s goals and
-                provides the simplest way to achieve
-                those goals!</p>
+              <p>🎯 When it comes to design, I always put myself in the user's shoes. 
+                I want to understand their needs and find the most straightforward way to help them reach their goals.</p>
             </li>
           </ul>
         </HeaderInfo>
-    </Wrapper>
-      </div>
+      </Wrapper>
+    </div>
   );
 }
 

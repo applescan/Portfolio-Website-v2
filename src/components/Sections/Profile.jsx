@@ -15,13 +15,14 @@ export default function Header() {
       <LeftSide>
         <div>
           <h1 className="extraBold font60">Hi there, </h1>
-          <h2>I'm Felicia. A Web Developer & UX Designer</h2>
+          <h2>My name is Felicia, a vibrant fusion of Web Developer and UX Designer</h2>
           <br></br>
-          <p className="font15">As a Front-end Developer at Data Insight, I bring a unique perspective to the development process.
-            I have a solid foundation in programming languages, frameworks, and software architecture, as well as an understanding of human-centered design, including user research, wireframing,
-            prototyping, and usability testing. I have leveraged these skills to create intuitive and engaging user experiences
-            that are both technically sound and scalable, making me a valuable asset to the team.
-          </p>
+          <p className="font15">As a software engineer, I thrive on crafting outstanding web applications.
+            I'm proficient in Typescript, Next.js, React, Node.js, SQL, and more.
+            As part of the team at Generate Zero, I apply these tech skills and my deep understanding of user needs to create engaging, scalable experiences.  </p>
+          <br></br>
+          <p className="font15"> I'm all about creating a beautiful harmony between solid code and user-focused design - it's like my secret recipe for being a helpful team player! </p>
+
           <br></br>
           <ButtonsRow className="flexNullCenter">
             <div style={{ width: "190px" }}>
