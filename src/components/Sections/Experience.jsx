@@ -81,6 +81,15 @@ export default function Pricing() {
         <TablesWrapper className="flexSpaceNull">
           <TableBox>
             <PricingTable
+              title="Academy EX - Disruptive Technologies, NZQA level 8"
+              text="Juni 2023 - August 2023"
+              offers={[
+                { name: "Technologies covered include: Artificial Intelligence, Blockchain, Cybersecurity, the Internet of Things, Mobility, Extended Reality and Big Data.", cheked: true }
+              ]}
+            />
+          </TableBox>
+          <TableBox>
+            <PricingTable
               title="Auckland University of Technology with Institute of Data"
               text="Ocotober 2022 - January 2023"
               offers={[
@@ -97,6 +106,8 @@ export default function Pricing() {
               ]}
             />
           </TableBox>
+        </TablesWrapper>
+        <TablesWrapper className="flexSpaceNull">
           <TableBox>
             <PricingTable
               title="Future Skills Academy"
@@ -106,8 +117,6 @@ export default function Pricing() {
               ]}
             />
           </TableBox>
-        </TablesWrapper>
-        <TablesWrapper className="flexSpaceNull">
           <TableBox>
             <PricingTable
               title="Media Design School"
@@ -115,6 +124,15 @@ export default function Pricing() {
               offers={[
                 { name: "Bachelor of Art and Design, specializing in 3D animation and VFX", cheked: true },
                 { name: "Served as a Student Ambassador from June 2016 to May 2018", cheked: true }
+              ]}
+            />
+          </TableBox>
+          <TableBox className="hidden">
+            <PricingTable
+              title="Future Skills Academy"
+              text="July 2022 - September 2022"
+              offers={[
+                { name: "Certificate in Software Development (Level 5)", cheked: true }
               ]}
             />
           </TableBox>
