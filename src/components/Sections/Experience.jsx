@@ -129,11 +129,6 @@ export default function Pricing() {
           </TableBox>
           <TableBox className="hidden">
             <PricingTable
-              title="Future Skills Academy"
-              text="July 2022 - September 2022"
-              offers={[
-                { name: "Certificate in Software Development (Level 5)", cheked: true }
-              ]}
             />
           </TableBox>
         </TablesWrapper>
