@@ -36,6 +36,13 @@ export default function Header() {
               </a>
             </div>
           </ButtonsRow>
+          <ButtonsRow className="flexNullCenter">
+            <div style={{ width: "395px" }}>
+              <a href="https://www.institutedata.com/blog/unlocking-potential-felicias-journey-from-design-to-software-engineering/" target="_blank" rel="noopener noreferrer">
+                <FullButton title="My Software Dev Journey: An Interview with Institute of Data" border={true} />
+              </a>
+            </div>
+          </ButtonsRow>
         </div>
       </LeftSide>
       <RightSide>

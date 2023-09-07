@@ -55,7 +55,7 @@ export default function NzLocum() {
           </div>
 
         </ButtonsRow>
-        
+
 
         <Body
           title={'Why this project?'}
@@ -72,7 +72,7 @@ export default function NzLocum() {
 
         <Body
           title={'Built With'}
-          desc={`• Axios • CSS • Canva • Figma • React • Tailwind css • Spoonacular api • Typescript • JavaScript • Next.js • Node.js`}
+          desc={`T3 Stack • Canva • Figma • React • Tailwind CSS • Spoonacular API • Typescript • Prisma • tRPC • NextAuth.js • Next.js • Node.js`}
 
         />
 
