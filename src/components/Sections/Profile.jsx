@@ -25,24 +25,24 @@ export default function Header() {
 
           <br></br>
           <ButtonsRow className="flexNullCenter">
-            <div style={{ width: "190px" }}>
+            <ResponsiveButton>
               <a href="https://www.linkedin.com/in/felicia-fel/" target="_blank" rel="noopener noreferrer">
                 <FullButton title="Linkedin" border={true} />
               </a>
-            </div>
-            <div style={{ width: "190px", marginLeft: "15px" }}>
+            </ResponsiveButton>
+            <ResponsiveButton>
               <a href="https://github.com/applescan" target="_blank" rel="noopener noreferrer">
                 <FullButton title="Github" border={false} />
               </a>
-            </div>
+            </ResponsiveButton>
           </ButtonsRow>
-          <ButtonsRow className="flexNullCenter">
-            <div style={{ width: "395px" }}>
+          <div style={{ paddingTop: "10px" }}>
+            <ResponsiveButton wide>
               <a href="https://www.institutedata.com/blog/unlocking-potential-felicias-journey-from-design-to-software-engineering/" target="_blank" rel="noopener noreferrer">
                 <FullButton title="My Software Dev Journey: An Interview with Institute of Data" border={true} />
               </a>
-            </div>
-          </ButtonsRow>
+            </ResponsiveButton>
+          </div>
         </div>
       </LeftSide>
       <RightSide>
@@ -136,4 +136,15 @@ const ButtonsRow = styled.div`
     padding: 10% 0;
   }
 `;
-
+const ResponsiveButton = styled.div`
+  width: calc(50% - 7.5px); /* 50% of the available width minus half the margin */
+  margin: 5px; /* provides space between stacked buttons */
+  
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  
+  ${props => props.wide && `
+    width: 100%;
+  `}
+`;

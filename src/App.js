@@ -11,6 +11,7 @@ import WhatToEat from "../src/screens/WhatToEat"
 import Dpm from "../src/screens/Dpm";
 import Cti from "../src/screens/Cti";
 import Talk from '../src/screens/Talk';
+import HikitiaAir from '../src/screens/HikitiaAir'
 import { Route, Routes } from 'react-router-dom';
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         <Route path='/nz-locum' element={<NzLocum />} />
         <Route path='/mixtape-me' element={<Mixtape />} />
         <Route path='/airscammer' element={<Airscammer />} />
+        <Route path='/hikitia' element={<HikitiaAir />} />
         <Route path='/what-to-eat' element={<WhatToEat />} />
         <Route path='/dpm' element={<Dpm />} />
         <Route path='/cti' element={<Cti />} />
