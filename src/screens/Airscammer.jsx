@@ -43,7 +43,7 @@ export default function NzLocum() {
         <br></br>
         <ButtonsRow className="flexNullCenter">
           <div style={{ width: "190px" }}>
-            <a href="https://airscammer.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://airscammer-3e77d984ab48.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <FullButton title="Try the app!" border={false} />
             </a>
           </div>
@@ -94,8 +94,8 @@ export default function NzLocum() {
         <Body
           title={'App'}
         />
-        <p>Visit <a className="purpleColor" href="https://airscammer.herokuapp.com/"
-          target="_blank">https://airscammer.herokuapp.com/</a> to
+        <p>Visit <a className="purpleColor" href="https://airscammer-3e77d984ab48.herokuapp.com/"
+          target="_blank">https://airscammer-3e77d984ab48.herokuapp.com/</a> to
           access the web application.
         </p>
 
