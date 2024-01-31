@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useNavigate } from 'react-router-dom'
 import { Link } from "react-scroll";
 // Assets
-import HeaderImage from "../../assets/img/felicia-profile.png";
+import HeaderImage from "../../assets/img/felicia-profile-2.png";
 import Dots from "../../assets/svg/Dots";
 // Components
 import FullButton from "../Buttons/FullButton";
@@ -47,7 +47,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
+          <Img className="radius8" height={450} width={450} src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
