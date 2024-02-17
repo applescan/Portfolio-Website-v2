@@ -12,6 +12,8 @@ import Dpm from "../../assets/img/projects/dpm.png";
 import Cti from "../../assets/img/projects/cti.png";
 import Hikitia from "../../assets/img/projects/hikitia.jpg"
 import WhatToEat from "../../assets/img/projects/What to eat.png"
+import Appreciateya from "../../assets/img/projects/appreciateya.jpg"
+
 
 
 export default function Projects() {
@@ -25,6 +27,14 @@ export default function Projects() {
           <h1 className="font40 extraBold">Projects</h1>
         </HeaderInfo>
         <div className="row textCenter">
+        <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+            <ProjectBox
+              img={Appreciateya}
+              title="AppreciateYa - Together, Let's Build a Happier, More Connected Workspace!"
+              text="Full Stack Web Developer | 2024 | Personal Project"
+              action={() => { navigate(`/appreciate-ya`) }}
+            />
+          </div>
           <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <ProjectBox
               img={WhatToEat}
@@ -41,7 +51,10 @@ export default function Projects() {
               action={() => { navigate(`/hikitia`) }}
             />
           </div>
-          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+         
+        </div>
+        <div className="row textCenter">
+        <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <ProjectBox
               img={NzLocum}
               title="NZ Veterinary Locum Network"
@@ -49,8 +62,6 @@ export default function Projects() {
               action={() => { navigate(`/nz-locum`) }}
             />
           </div>
-        </div>
-        <div className="row textCenter">
           <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <ProjectBox
               img={Mix}
@@ -67,7 +78,11 @@ export default function Projects() {
               action={() => { navigate(`/airscammer`) }}
             />
           </div>
-          <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
+         
+
+        </div>
+        <div className="row textCenter">
+        <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <ProjectBox
               img={Dpm}
               title="Deltapath Mobile UI & UX Design"
@@ -75,9 +90,6 @@ export default function Projects() {
               action={() => { navigate(`/dpm`) }}
             />
           </div>
-
-        </div>
-        <div className="row textCenter">
           <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4" style={{ textAlign: "left" }}>
             <ProjectBox
               img={Cti}
