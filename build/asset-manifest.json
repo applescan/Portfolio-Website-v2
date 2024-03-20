@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.de4ea648.css",
-    "main.js": "/static/js/main.b8f37892.js",
+    "main.js": "/static/js/main.c43fc9f5.js",
     "static/js/496.bafa5cfb.chunk.js": "/static/js/496.bafa5cfb.chunk.js",
-    "static/media/appreciateYa.mp4": "/static/media/appreciateYa.dd3ef671e265b8dbcd58.mp4",
+    "static/media/appreciateYa.mp4": "/static/media/appreciateYa.533d9c0ebc1415d154d5.mp4",
     "static/media/anno1.jpg": "/static/media/anno1.23ab96d4ea10dc6745cb.jpg",
     "static/media/userFlow.jpg": "/static/media/userFlow.151708ec53057bb98e18.jpg",
     "static/media/cti.png": "/static/media/cti.5714b40f593f54642555.png",
@@ -17,6 +17,7 @@
     "static/media/What-to-eat-2.png": "/static/media/What-to-eat-2.543e43c723539d6415b5.png",
     "static/media/1.webp": "/static/media/1.04188311915ec0a3c946.webp",
     "static/media/felicia-profile-2.png": "/static/media/felicia-profile-2.1661dfba428353c089eb.png",
+    "static/media/AI.png": "/static/media/AI.ef4d1cd31cb10ce2752d.png",
     "static/media/What-to-eat-1.png": "/static/media/What-to-eat-1.0e4aaba7c3433aedf9d1.png",
     "static/media/cti1.webp": "/static/media/cti1.336c05619d838336cca2.webp",
     "static/media/4.webp": "/static/media/4.36789fdae281f081baf0.webp",
@@ -55,11 +56,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.de4ea648.css.map": "/static/css/main.de4ea648.css.map",
-    "main.b8f37892.js.map": "/static/js/main.b8f37892.js.map",
+    "main.c43fc9f5.js.map": "/static/js/main.c43fc9f5.js.map",
     "496.bafa5cfb.chunk.js.map": "/static/js/496.bafa5cfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de4ea648.css",
-    "static/js/main.b8f37892.js"
+    "static/js/main.c43fc9f5.js"
   ]
 }

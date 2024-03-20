@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Title from "../components/Elements/Title";
 import Images from "../components/Elements/Images";
 import Appreciateya from '../assets/img/appreciate/appreciateYa.jpg';
+import AI from '../assets/img/appreciate/AI.png';
 import AppreciateyaVid from '../assets/img/appreciate/appreciateYa.mp4';
 import FullButton from "../components/Buttons/FullButton";
 import Body from "../components/Elements/Body";
@@ -32,12 +33,12 @@ export default function NzLocum() {
 
         <Images img1={Appreciateya} alt1={"project image cover"} />
 
-        <video style={{ width: '100%', height: '100%', paddingBottom:"50px" }} className="radius8" controls>
+        <video style={{ width: '100%', height: '100%', paddingBottom: "50px" }} className="radius8" controls>
           <source src={AppreciateyaVid} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-       
+
         <h1 className='extraBold font25'>Links:</h1>
         <br></br>
         <ButtonsRow className="flexNullCenter">
@@ -61,8 +62,14 @@ export default function NzLocum() {
           desc={`In today's fast-paced work environment, it's easy to overlook the power of a simple "thank you" or "great job." 
           However, these small gestures of appreciation can significantly impact morale, motivation, and workplace happiness. 
           That's where AppreciateYa comes in.`}
-
         />
+
+
+        <Body
+          title={'New Feature'}
+          desc={`Introducing the latest feature to spark your creativity: AI Suggestion! Now, whenever you need a dose of inspiration or just a little nudge in the right direction, our AI can craft personalized kudos for you. Whether you're celebrating a team win, recognizing a colleague's hard work, or just spreading some positivity, AI Suggestion is here to help you express your appreciation in the most impactful way. Let AI ignite your imagination and help you pen the perfect note of praise.`}
+        />
+        <Images img1={AI} alt1={"AI image cover"} />
 
         <Body
           title={'Goals'}
@@ -91,11 +98,7 @@ export default function NzLocum() {
           list1={'💌 Send personalized appreciation messages, whether its a warm thank you, congratulations, or a virtual coffee or gift card.'}
           list2={'🏆 Discover your top fans and MVPs, and make sure no one feels left out.'}
           list3={'📊 Gain insights into the appreciation culture within your team or organization.'}
-        />
-
-        <Body
-          title={'Future Software Enhancement List'}
-          desc={`I'm working on incorporating an AI chatbot to help user generate a nice kudos messages or suggest user on what to write`}
+          list4={'🤖 Meet AI Suggestion, your quick tool for crafting inspiring kudos. Express appreciation with creativity and ease.'}
         />
 
         <div style={{ width: "150px", paddingTop: "100px" }}>
