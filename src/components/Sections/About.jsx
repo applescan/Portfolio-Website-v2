@@ -9,12 +9,9 @@ export default function Services() {
           <h1 className="font40 bold whiteColor">A bit about me</h1>
           <br></br>
           <p className="font15 whiteColor regular">
-            A dynamic blend of a Web Developer and UX Designer with an innovative, goal-oriented approach.
-            I bring to the table three years of experience in the design industry,
-            where I've honed my skills in designing user interfaces for websites and mobile apps.
-            My track record speaks to my competence in building user interfaces, writing and testing code,
-            debugging problems, and implementing new features based on user feedback.
-            What sets me apart is my ability to seamlessly interweave solid coding with a deep understanding of user needs, which makes me a valuable addition to any team.
+            Over the past three years, I've gotten my hands dirty with everything from crafting interfaces to squashing bugs and adding cool new features based on what users are asking for. 
+            What I love doing is figuring out what users need and making it happen, coding it into reality. 
+            I believe that understanding people is just as important as understanding code, and that’s what I bring to the table.
           </p>
           <br></br>
           <ul className="font15 whiteColor regular">
@@ -26,19 +23,14 @@ export default function Services() {
             </li>
             <br></br>
             <li>
-              <p>💁 I find it super rewarding to solve complex problems and love combining design thinking with software development.
-                It's like piecing together a puzzle, and I adore it!</p>
+              <p>💁 I find it incredibly rewarding to tackle complex problems and thrive on the challenge of software development. 
+                It feels like solving a puzzle, and I absolutely love it!</p>
             </li>
             <br></br>
             <li>
-              <p>✅ I believe my strengths can help make our tech world a friendlier place.
-                I'm keen on smoothing out the communication bumps between designers and developers,
-                and I can't wait to create fantastic products that the end-users will love.</p>
-            </li>
-            <br></br>
-            <li>
-              <p>🎯 When it comes to design, I always put myself in the user's shoes. 
-                I want to understand their needs and find the most straightforward way to help them reach their goals.</p>
+              <p>✅ I believe my strengths can significantly contribute to making the tech world more user-friendly. 
+                I'm all about enhancing communication within teams to build amazing products that end-users will adore. 
+                I can't wait to dive in and start creating solutions that make everyone's life a bit easier.</p>
             </li>
           </ul>
         </HeaderInfo>

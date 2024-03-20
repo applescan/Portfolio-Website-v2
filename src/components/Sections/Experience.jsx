@@ -24,9 +24,7 @@ export default function Pricing() {
                 { name: "Collaborate with back-end developers and other stakeholders to integrate front-end functionality with back-end services and APIs.", cheked: true },
                 { name: "Taking an active role in the implementation, deployment, monitoring, and support activities of new products.", cheked: true },
                 { name: "Ongoing expansion of the codebase, developed in a structured and reusable way.", cheked: true },
-                { name: "Collaborate with cross-functional teams, including developers, product managers, and stakeholders, to ensure designs meet project goals and user needs", cheked: true },
-                { name: "Develop wireframes and prototypes to visualize and test design concepts", cheked: true },
-                { name: "Communicate design concepts and recommendations to stakeholders using visual design tools and presentations.", cheked: true }
+                { name: "Work closely with developers, product managers, and other stakeholders as part of a cross-functional team, focusing on ensuring that the technical implementation aligns with project objectives and meets user requirements effectively.", cheked: true },
               ]}
             />
           </TableBoxLarge>
