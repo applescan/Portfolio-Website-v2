@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import PricingTable from "../Elements/PricingTable";
+import Card from "../Elements/Card";
 
-export default function Pricing() {
+export default function Experience() {
   return (
     <div className="darkBg">
       <Wrapper id="resume" className="container" style={{ padding: '10% 5%' }}>
@@ -17,14 +17,27 @@ export default function Pricing() {
 
         <TablesWrapper className="flexSpaceNull">
           <TableBoxLarge>
-            <PricingTable
+          <Card
+            title="PHQ Studios (founded by Phantom London) - Intermediate Developer"
+            text="July 2024 - Current"
+            offers={[
+              { name: "Work with Angular, Pixi.js, and Gerrit on various Google projects.", cheked: true },
+              { name: "Develop video games for Google Play.", cheked: true },
+              { name: "Collaborate with international clients and agencies.", cheked: true },
+              { name: "Work with back-end developers and other stakeholders to integrate front-end features with back-end services and APIs.", cheked: true },
+              { name: "Work closely with producers and other teams to ensure technical implementations align with project objectives and effectively meet user requirements.", cheked: true },
+            ]}
+          />
+          </TableBoxLarge>
+          <TableBoxLarge>
+            <Card
               title="Generate Zero - Frontend Software Developer"
-              text="February 2023 - Current"
+              text="February 2023 - June 2024"
               offers={[
                 { name: "Collaborate with back-end developers and other stakeholders to integrate front-end functionality with back-end services and APIs.", cheked: true },
                 { name: "Taking an active role in the implementation, deployment, monitoring, and support activities of new products.", cheked: true },
                 { name: "Ongoing expansion of the codebase, developed in a structured and reusable way.", cheked: true },
-                { name: "Work closely with developers, product managers, and other stakeholders as part of a cross-functional team, focusing on ensuring that the technical implementation aligns with project objectives and meets user requirements effectively.", cheked: true },
+                { name: "Work as part of a cross-functional team, focusing on ensuring that the technical implementation aligns with project objectives and meets user requirements effectively.", cheked: true },
               ]}
             />
           </TableBoxLarge>
@@ -32,7 +45,7 @@ export default function Pricing() {
 
         <TablesWrapper className="flexSpaceNull">
           <TableBox>
-            <PricingTable
+            <Card
               title="Liia NZ Limited - Integrated Marketing Designer (Independent Contractor)"
               text="June 2022 - July 2022"
               offers={[
@@ -43,7 +56,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox>
-            <PricingTable
+            <Card
               title="Deltapath - Visual Designer - Senior Visual Designer"
               text="October 2019 - June 2022"
               offers={[
@@ -56,7 +69,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox>
-            <PricingTable
+            <Card
               title="The Web Guys - Web Designer & Graphic Designer Intern"
               text="October 2018 - February 2019"
               offers={[
@@ -78,7 +91,7 @@ export default function Pricing() {
 
         <TablesWrapper className="flexSpaceNull">
           <TableBox>
-            <PricingTable
+            <Card
               title="Academy EX - Disruptive Technologies, NZQA level 8"
               text="Juni 2023 - August 2023"
               offers={[
@@ -87,7 +100,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox>
-            <PricingTable
+            <Card
               title="Auckland University of Technology with Institute of Data"
               text="Ocotober 2022 - January 2023"
               offers={[
@@ -96,7 +109,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox>
-            <PricingTable
+            <Card
               title="UX Design Institute & Glasgow Caledonian University"
               text="July 2022 - December 2022"
               offers={[
@@ -107,7 +120,7 @@ export default function Pricing() {
         </TablesWrapper>
         <TablesWrapper className="flexSpaceNull">
           <TableBox>
-            <PricingTable
+            <Card
               title="Future Skills Academy"
               text="July 2022 - September 2022"
               offers={[
@@ -116,7 +129,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox>
-            <PricingTable
+            <Card
               title="Media Design School"
               text="July 2015 - May 2018"
               offers={[
@@ -126,7 +139,7 @@ export default function Pricing() {
             />
           </TableBox>
           <TableBox className="hidden">
-            <PricingTable
+            <Card
             />
           </TableBox>
         </TablesWrapper>
@@ -136,35 +149,37 @@ export default function Pricing() {
 }
 
 const Wrapper = styled.section`
-width: 100%;
+  width: 100%;
 `;
 const HeaderInfo = styled.div`
-  
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
 const TablesWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   @media (max-width: 860px) {
     flex-direction: column;
   }
 `;
 const TableBox = styled.div`
   width: 31%;
+  display: flex;
+  flex-direction: column;
   @media (max-width: 860px) {
     width: 100%;
     max-width: 370px;
-    margin: 0 auto
+    margin: 0 auto;
   }
 `;
 const TableBoxLarge = styled.div`
-  width: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
   @media (max-width: 860px) {
     width: 100%;
     max-width: 370px;
-    margin: 0 auto
+    margin: 0 auto;
   }
 `;
-
-
-

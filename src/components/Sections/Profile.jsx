@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useNavigate } from 'react-router-dom'
-import { Link } from "react-scroll";
 // Assets
 import HeaderImage from "../../assets/img/felicia-profile-2.png";
 import Dots from "../../assets/svg/Dots";
@@ -15,11 +13,10 @@ export default function Header() {
       <LeftSide>
         <div>
           <h1 className="extraBold font60">Hi there, </h1>
-          <h2>I'm Felicia, the web developer who turns coffee into code. Less magic, more caffeine-fueled keyboard smashing. ☕👩‍💻</h2>
+          <h2>I’m Felicia, a web developer who turns coffee into code. Fueled by caffeine, I turn ideas into reality. ☕👩‍💻</h2>
           <br></br>
-          <p className="font15"> I thrive on crafting outstanding web applications.
-            I'm proficient in Typescript, Next.js, React, Node.js, SQL, and more.
-            I apply these tech skills and my deep understanding of user needs to create engaging, scalable experiences.  </p>
+          <p className="font15"> I thrive on creating exceptional web applications. With expertise in TypeScript, Next.js, React, Node.js, SQL.
+              I leverage my technical skills and deep understanding of user needs to build engaging and scalable applications. </p>
           <br></br>
           <p className="font15"> I'm all about creating a beautiful harmony between solid code and user-focused applications. </p>
 

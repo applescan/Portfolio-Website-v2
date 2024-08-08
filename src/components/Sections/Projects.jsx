@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { useNavigate } from 'react-router-dom'
 // Components
 import ProjectBox from "../Elements/ProjectBox";
-import FullButton from "../Buttons/FullButton";
 // Assets
 import NzLocum from "../../assets/img/projects/nz-locum.png";
 import Mix from "../../assets/img/projects/mix1.png";

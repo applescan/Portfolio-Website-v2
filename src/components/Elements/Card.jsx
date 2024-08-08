@@ -3,13 +3,10 @@ import styled from "styled-components";
 // Assets
 import CheckMark from "../../assets/svg/Checkmark";
 
-export default function PricingTable({ icon, price, title, text,  offers, action }) {
-
-
+export default function Card({ price, title, text, offers }) {
   return (
     <Wrapper className="whiteBg radius8">
       <div className="flexSpaceCenter">
-  
         <p className="font30 bold">{price}</p>
       </div>
       <div style={{ margin: "30px 0" }}>
@@ -44,4 +41,7 @@ const Wrapper = styled.div`
   text-align: left;
   padding: 20px 30px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 `;
